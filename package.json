@@ -1,0 +1,15 @@
+{
+    "name": "dotnet-vite-react-ts-skeleton",
+    "private": true,
+    "workspaces": [
+        "apps/*"
+    ],
+    "scripts": {
+        "dev": "npm run dev --workspace=frontend",
+        "build": "npm run build --workspace=frontend",
+        "lint": "npm run lint --workspace=frontend",
+        "test:e2e": "npm run test:e2e --workspace=frontend --",
+        "preview": "npm run preview --workspace=frontend"
+    },
+    "devDependencies": {}
+}

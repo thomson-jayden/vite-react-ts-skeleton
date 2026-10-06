@@ -1,0 +1,5 @@
+obj/
+bin/
+node_modules/
+apps/frontend/playwright-report/
+apps/frontend/test-results/

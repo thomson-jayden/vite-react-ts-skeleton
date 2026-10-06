@@ -1,0 +1,50 @@
+:root {
+  --ink: #173735;
+  --muted: #677a75;
+  --deep: #16423d;
+  --paper: #f3f6f1;
+  --surface: #ffffff;
+  --line: #dce5df;
+  --line-strong: #b9c9c0;
+  --accent: #bd523a;
+  --signal: #d4e986;
+  --signal-strong: #9fbf4c;
+  --sans: 'Avenir Next', 'Trebuchet MS', sans-serif;
+  --display: 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+
+  font: 16px/1.5 var(--sans);
+  letter-spacing: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(rgba(22, 66, 61, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(22, 66, 61, 0.025) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+button {
+  font-family: inherit;
+}

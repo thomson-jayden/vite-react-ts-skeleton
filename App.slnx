@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/apps/" />
+  <Folder Name="/apps/api/">
+    <Project Path="apps/api/App.Api/App.Api.csproj" />
+  </Folder>
+  <Folder Name="/modules/">
+    <Folder Name="/modules/weather-forecast/">
+      <Folder Name="/modules/weather-forecast/Module.WeatherForecast/">
+        <Project Path="modules/weather-forecast/Module.WeatherForecast/Module.WeatherForecast.csproj" />
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/App.AppHost/App.AppHost.csproj" />
+  </Folder>
+</Solution>
