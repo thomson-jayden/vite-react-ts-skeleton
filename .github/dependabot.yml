@@ -5,21 +5,6 @@ updates:
     schedule:
       interval: weekly
 
-  - package-ecosystem: nuget
-    directory: "/apps/api/App.Api"
-    schedule:
-      interval: weekly
-
-  - package-ecosystem: nuget
-    directory: "/modules/weather-forecast/Module.WeatherForecast"
-    schedule:
-      interval: weekly
-
-  - package-ecosystem: nuget
-    directory: "/tools/App.AppHost"
-    schedule:
-      interval: weekly
-
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
