@@ -1,6 +1,12 @@
 name: Quality and build
 description: Install dependencies, run lint, and build the frontend. Assumes the repo is already checked out.
 
+inputs:
+  base-path:
+    description: Public base path for the production build.
+    required: false
+    default: /
+
 runs:
   using: composite
   steps:
@@ -30,3 +36,5 @@ runs:
     - name: Build
       run: npm run build
       shell: bash
+      env:
+        VITE_BASE_PATH: ${{ inputs.base-path }}
